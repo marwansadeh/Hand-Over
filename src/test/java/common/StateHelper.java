@@ -46,7 +46,7 @@ public class StateHelper {
 
 	public static void clearStepState() throws IOException {
 		StepState.clear();
-		PrintWriter writer = new PrintWriter("Nass.txt");
+		PrintWriter writer = new PrintWriter("SIS.txt");
 		writer.print("");
 		writer.close();
 	}
